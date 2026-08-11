@@ -1,0 +1,2 @@
+import { Products } from '@/sections/Products'; import { PageHero } from '@/components/PageHero';
+export function ProductsPage() { return <><PageHero eyebrow="Digital Products" title={<>Tools and resources for <span className="text-orange-500">real growth.</span></>} description="Shop our downloadable digital products. Products are kept on their own page so you can browse, filter, and purchase without mixing them with our professional services." /><Products /></>; }

@@ -38,7 +38,9 @@ export function About() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
             <div className="about-content">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">Welcome to <span className="text-orange-500">{companyInfo.name}</span></h2>
-              <p className="text-gray-500 mb-6">We are a digital products company dedicated to creating high-quality resources that help individuals and businesses grow. From marketing tools to educational materials for children, our products are designed with care and expertise.</p>
+              <p className="text-gray-900 text-lg font-bold mt-2">
+  Grow Softs LLC is operated by ALLISON KALA MONDAY
+</p><p className="text-gray-500 mb-6">We are a digital products company dedicated to creating high-quality resources that help individuals and businesses grow. From marketing tools to educational materials for children, our products are designed with care and expertise.</p>
               <p className="text-gray-500 mb-8">Based in {companyInfo.city}, {companyInfo.state}, we serve customers worldwide with instant digital delivery and exceptional customer support.</p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-white rounded-xl p-4 shadow-sm border border-orange-100"><p className="text-3xl font-bold text-orange-500">20+</p><p className="text-gray-400 text-sm">Digital Products</p></div>

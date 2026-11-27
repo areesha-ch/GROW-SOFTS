@@ -147,7 +147,7 @@ export const products: Product[] = [
     id: 14,
     name: "Creative Coloring World",
     description: "150+ beautifully illustrated coloring pages featuring animals, fantasy worlds, and nature scenes for endless creativity.",
-    price: 8.99,
+    price: 10.0,
     image: "/product14.jpg",
     category: "Education",
     deliveryMethod: "PDF download via email",
